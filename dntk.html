@@ -9,7 +9,7 @@
 <body>
     <div id="container">
 
-        <div id="result">0</div>
+        <div id="result"></div>
         <table>
             <tbody>
                 <tr>
@@ -22,19 +22,25 @@
                     <td><button>1</button></td>
                     <td><button>2</button></td>
                     <td><button>3</button></td>
-                    <td><button>C</button></td>
+                    <td><button rowspan="2">C</button></td>
                 </tr>
                 <tr>
                     <td><button>4</button></td>
                     <td><button>5</button></td>
                     <td><button>6</button></td>
-                    <td><button>=</button></td>
+                    
                 </tr>
                 <tr>
                     <td><button>7</button></td>
                     <td><button>8</button></td>
                     <td><button>9</button></td>
+                    <td><button rowspan="2">=</button></td>
+                </tr>
+                <tr>
                     <td><button>0</button></td>
+                    <td><button>00</button></td>
+                    <td><button>.</button></td>
+                    
                 </tr>
             </tbody>
         </table>
@@ -48,43 +54,3 @@
 </html>
 
 
-
-
-
-
-<!-- <body>
-    <div class="wrapper">
-        <h1 id="header">電卓</h1>
-        <div id="calc">
-        <div>
-            <input type="text" value="0">
-            <button id="result" 
-            onclick="clickBtn(this)">0</button>
-            <button onclick="clickBtn(this)">AC</button>
-        </div>
-        <div>
-            <button onclick="clickBtn(this)">7</button>
-            <button onclick="clickBtn(this)">8</button>
-            <button onclick="clickBtn(this)">9</button>
-            <button onclick="clickBtn(this)">/</button>
-        </div>
-        <div>
-            <button onclick="clickBtn(this)">4</button>
-            <button onclick="clickBtn(this)">5</button>
-            <button onclick="clickBtn(this)">6</button>
-            <button onclick="clickBtn(this)">*</button>
-        </div>
-        <div>
-            <button onclick="clickBtn(this)">1</button>
-            <button onclick="clickBtn(this)">2</button>
-            <button onclick="clickBtn(this)">3</button>
-            <button onclick="clickBtn(this)">-</button>
-        </div>
-        <div>
-            <button onclick="clickBtn(this)">0</button>
-            <button onclick="clickBtn(this)">.</button>
-            <button onclick="clickBtn(this)">=</button>
-            <button onclick="clickBtn(this)">+</button>
-        </div>
-        </div>
-    </div> -->

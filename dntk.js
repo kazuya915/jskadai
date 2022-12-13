@@ -27,7 +27,7 @@ function clickBtn(event) {
 
         }
         
-        else if(result.textContent == '0'){
+        else if(result.textContent == '0' && input !=='.'){
              
                 concatText = input;
             } 
